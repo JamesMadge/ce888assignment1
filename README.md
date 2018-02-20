@@ -1,10 +1,10 @@
 # CE888 Assignment 1
 
-TODO! Add instance image. Add link to the written code. Add link to data.
+TODO! Add link to data.
 
 ## Data
 
-8 data sets have been captured, each comprised of 5000 instances formed from 4 concatenated sequential frames of [agents](http://models.tensorpack.com/OpenAIGym/) playing one of eight Atari games, namely; Asteroids, Battle Zone, *Breakout*, *Gopher*, *James Bond*, *Ms. Pacman*, *Road Runner* and *Tennis*. The first 50 instances of each data set have been uploaded to GitHib for the purposes of demonstration. The entire data is 0.5GiB and hence is stored and maintained locally.
+8 [data sets](https://github.com/JamesMadge/ce888assignment1/tree/master/data) have been captured, each comprised of 5000 instances formed from 4 concatenated sequential frames of [agents](http://models.tensorpack.com/OpenAIGym/) playing one of eight Atari games, namely; Asteroids, Battle Zone, *Breakout*, *Gopher*, *James Bond*, *Ms. Pacman*, *Road Runner* and *Tennis*. The first 50 instances of each data set have been uploaded to GitHib for the purposes of demonstration. The entire data is 0.5GiB and hence is stored and maintained locally.
 
 Each data instance has the following descriptive name: 
 
@@ -12,7 +12,17 @@ Each data instance has the following descriptive name:
 
 Where, **observation** is the number of the observation from 0->4999, **episode** is the game number incremented from zero if a new game is started while observations are being captured, **tick** observation number for the current episode, **action** the resulting action taken by the agent.
 
-![alt text](X.png "TEXT")
+![Asteroids](https://raw.githubusercontent.com/JamesMadge/ce888assignment1/master/data/asteroids/49-0-49-2.png "TEXT")
+![Battle Zone](https://raw.githubusercontent.com/JamesMadge/ce888assignment1/master/data/battle_zone/49-0-49-9.png "TEXT")
+
+![Breakout](https://raw.githubusercontent.com/JamesMadge/ce888assignment1/master/data/breakout/49-0-49-1.png "TEXT")
+![Gopher](https://raw.githubusercontent.com/JamesMadge/ce888assignment1/master/data/gopher/49-0-49-4.png "TEXT")
+
+![James Bond](https://raw.githubusercontent.com/JamesMadge/ce888assignment1/master/data/james_bond/49-0-49-11.png "TEXT")
+![Ms. Pacman](https://raw.githubusercontent.com/JamesMadge/ce888assignment1/master/data/ms_pacman/49-0-49-6.png "TEXT")
+
+![Road Runner](https://raw.githubusercontent.com/JamesMadge/ce888assignment1/master/data/road_runner/49-0-49-17.png "TEXT")
+![Tennis](https://raw.githubusercontent.com/JamesMadge/ce888assignment1/master/data/tennis/49-0-49-8.png "TEXT")
 
 ## Code
 
