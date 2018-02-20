@@ -1,7 +1,5 @@
 # CE888 Assignment 1
 
-TODO! Add link to data.
-
 ## Data
 
 8 [data sets](https://github.com/JamesMadge/ce888assignment1/tree/master/data) have been captured, each comprised of 5000 instances formed from 4 concatenated sequential frames of [agents](http://models.tensorpack.com/OpenAIGym/) playing one of eight Atari games, namely; Asteroids, Battle Zone, *Breakout*, *Gopher*, *James Bond*, *Ms. Pacman*, *Road Runner* and *Tennis*. The first 50 instances of each data set have been uploaded to GitHib for the purposes of demonstration. The entire data is 0.5GiB and hence is stored and maintained locally.
@@ -26,7 +24,7 @@ Where, **observation** is the number of the observation from 0->4999, **episode*
 
 ## Code
 
-Minimal code was required to be written for Assignment 1, the provided sample code shown below was modified and incorporated into the `play_one_episode` function of [common.py](https://github.com/ppwwyyxx/tensorpack/blob/master/examples/DeepQNetwork/common.py) to capture data instances named in the format specified above. The resulting implementation can be found ...
+Minimal code was required to be written for Assignment 1, the provided sample code shown below was modified and incorporated into the `play_one_episode` function of TensorPack's [common.py](https://github.com/ppwwyyxx/tensorpack/blob/master/examples/DeepQNetwork/common.py) file within the DeepQNetwork example to capture data instances named in the format specified above. The resulting implementation can be found [here](https://github.com/JamesMadge/ce888assignment1/blob/master/common.py).
 
 ```python
 from PIL import Image
